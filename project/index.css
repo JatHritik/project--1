@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Gothic;
+    
+  }
+  html, body{
+    height: 100%;
+    width: 100%;
+  }
+    
+  #main{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+  }
+  #nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+  align-items: center;
+    justify-content: space-between; 
+  }
+
+  #nav-part1{
+    display: flex;
+    justify-content: center;
+  align-items: center;
+ }
+ #nav i{
+    border: 1.5px;
+
+ }
+ #nav i{
+    font-size: 16px;
+    border: 1.5px solid #000;
+    padding: 5px 10px;
+    border-radius: 50px;
+    font-weight: 500;
+ }
+ #nav h3{
+    font-size: 16px;
+    border: 1.5px solid #000;
+    padding: 5px 10px;
+    border-radius: 50px;
+    font-weight: 500;
+ }
+  #nav h1{
+    font: weight 500; 
+    font: size 22px ;
+    text-transform: uppercase;
+  }
+  #btn1{
+    padding: 7px 12px ;
+    border-radius: 50px;
+    border: 1.5px solid #000;
+  font: size 16px; 
+  font-weight:600 ;
+  background-color:white;
+  }
+   #btn2{
+    padding: 7px 12px ;
+    border-radius: 50px;
+    border:none ;
+  font: size 16px; 
+  font-weight:600 ;
+  background-color:orangered;
+  }
+ #sexa{
+    font-size: 140px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    text-align: center;
+
+ }
+ img{
+    height: 270px;
+    width: 200px;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius:20px;
+
+    transform: translate(-50%,-50%);
+}
+#i1{
+    transform: translate(-50%,-50%) rotate(-30deg);
+ }
+ #i2{
+    transform: translate(-50%,-50%) rotate(-20deg);
+ }
+ #i3{
+    transform: translate(-50%,-50%) rotate(-2deg);
+ }
+ #i4{
+    transform: translate(-50%,-50%) rotate(-15deg);
+ }
+ #i5{
+    transform: translate(-50%,-50%) rotate(-10deg);
+ }
+#hey{
+    position: absolute;
+    bottom: 5%;
+    left:3%;
+    text-size:200px ;
+}
+#logos{
+   gap: 5px;
+   position: absolute;
+   bottom: 5%;
+   right: 3%;
+}
+#jat{
+    position: absolute;
+   bottom:2%;
+   right:3% ;
+}
